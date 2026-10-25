@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Node / web
+node_modules/
+web/dist/
+
+# Local data and secrets (app data lives outside the repo; these are a safety net)
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
